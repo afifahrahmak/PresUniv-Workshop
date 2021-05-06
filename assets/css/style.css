@@ -1,0 +1,124 @@
+body {
+  font-family: 'Nunito Sans';
+}
+
+::selection {
+  background: #dc3545 !important;
+  color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito Sans';
+  font-weight: 800 !important;
+}
+
+.shadow-card {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.btn {
+  border: 0 !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
+}
+
+.text-covid {
+  color: #b71c1c !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.bg-covid {
+  background: linear-gradient(0deg, #7f0000 0%, #b71c1c 100%) !important;
+}
+
+.tips p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.text-light {
+  color: #eff3f9!important;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.card {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31,45,65,.15);
+  overflow: hidden;
+  position: relative;
+  border: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #b71c1c;
+}
+
+.vertical-middle {
+  padding-top: 4px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.btn-xl {
+  border-radius: 5rem;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.masthead-heading {
+  font-size: 2rem;
+}
+
+.masthead-subheading {
+  font-size: 1.5rem;
+}
+
+.covid-box h5{
+  font-size: 4rem;
+  font-weight: 700 !important;
+}
+.covid-box p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.bg-primary {
+  background-color: #b71c1c !important;
+}
+
+.btn-primary {
+  background-color: #b71c1c;
+  border-color: #b71c1c;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #7f0000 !important;
+  border-color: #7f0000 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
